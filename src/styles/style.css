@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+header {
+    width: 100%;
+}
+
+.first-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.first-nav .logo-box img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.first-nav .icon-box img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    filter: invert(56%) sepia(69%) saturate(5079%) hue-rotate(319deg) brightness(100%) contrast(99%);
+}
+
+
+.second-nav {
+    width: 100%;
+    align-items: center;
+    display: none;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.logo-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.options-box {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+
+.options-content {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    font-size: 1.8rem;
+}
+
+.options-img img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    filter: invert(50%) sepia(29%) saturate(7485%) hue-rotate(319deg) brightness(101%) contrast(99%);
+}
+
+
+main {
+    width: 100%;
+    margin-top: 24px;
+}
+
+main .presentation {
+    width: 100%;
+    padding: 64px 5%;
+}
+
+.presentation-principal-photo-box {
+    width: 100%;
+}
+
+.presentation-principal-photo-box img {
+    width: 100%;
+}
+
+.presentation-tittle-box {
+    width: 100%;
+    margin: 16px 0px;
+}
+
+.presentation-tittle-box h1 {
+    font-size: 2.8rem;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.presentation-parragraph-box {
+    width: 100%;
+}
+
+.presentation-parragraph-box h3 {
+    font-size: 1.4rem;
+    margin-bottom: 4px;
+}
+
+.presentation-parragraph-box p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.presentation-button-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 24px 0px;
+}
+
+.presentation-button-box button {
+    all: unset;
+    padding: 18px 30px;
+    background-color: #fd4369;
+    border-radius: 50px;
+}
+
+.presentation-button-box button:hover {
+    background-color: #fe892c;
+}
+
+.presentation-button-box button a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+main .subjects {
+    width: 100%;
+    padding: 0px 5%;
+    background-color: #2946ff;
+    padding-bottom: 50px;
+}
+
+.subjects-tittle {
+    width: 100%;
+    padding: 12px 0px;
+}
+
+.subjects-tittle h1 {
+    font-size: 2.8rem;
+    line-height: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.subjects-description {
+    width: 100%;
+}
+
+.subjects-description p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.subjects-card-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 32px;
+    gap: 12px;
+}
+
+.subject-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.subject-card:hover  {
+    background-color: #fff;
+}
+
+.subject-card:hover .card-content a {
+    color: #4cc1f7;
+}
+
+.card-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #0a90f4;
+    border-radius: 20px;
+}
+
+.card-content img {
+    width: 100%;
+    padding: 40px 40px 0px 40px;
+    filter: invert(80%) sepia(82%) saturate(444%) hue-rotate(80deg) brightness(95%) contrast(87%);
+}
+
+.card-content a {
+    padding: 12px 0px 20px;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+main .profile {
+    width: 100%;
+    padding: 0px 5%;
+    background-color: #f8f8fd;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.profile-card {
+    margin: 0px auto;
+    width: 90%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: -5px -5px 60px -5px rgba(0,0,0,0.1);
+}
+
+.profile-card-tittle {
+    width: 40%;
+    color: #03a9f4;
+    border-bottom: 5px solid #fd4c74;
+    font-weight: bold;
+}
+
+.profile-card-content {
+    margin-top: 20px;
+}
+
+.profile-card-content ol {
+    font-size: 1.2rem;
+}
+.profile-card-content ol li {
+    margin: 8px 0px;
+}
+
+footer {
+    width: 100%;
+    padding-top: 50px;
+    background-color: #150e52;
+    padding-bottom: 50px;
+}
+
+.logo-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-footer img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.networks {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 20px 70px 20px;
+    margin: 0px auto;
+    border-bottom: 1px solid #03a9e9;
+}
+
+.networks div  {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #fd4369;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.networks div img {
+    width: 60%;
+    height: auto;
+}
+
+.link {
+    width: 100%;
+    padding: 0px 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.link-box p {
+    color: #03a9e9;
+    font-size: 1.4rem;
+}
+
+.link-last-text {
+    display: flex;
+    gap: 4px;
+    white-space: nowrap;
+}
+
+.link-last-text p {
+    color: #03a9e9;
+    font-size: 1.4rem;
+}
+
+
+@media (min-width: 1200px) {
+
+    .first-nav {
+        display: none;
+    }
+
+    .second-nav {
+        display: flex;
+    }
+
+
+
+    main .presentation {
+        display: flex;
+        gap: 20px;
+    }
+
+    .presentation-text-box {
+        width: 90%;
+    }
+
+    main .subjects {
+        padding-top: 50px;
+    }
+
+    .subjects-tittle h1 {
+        text-align: center;
+    }
+
+    .subjects-description p {
+        text-align: center;
+    }
+
+    .subjects-card-box {
+        width: 90%;
+        height: auto;
+        margin: 32px auto;
+        display: flex;
+    }
+}
